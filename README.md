@@ -5,7 +5,9 @@ Service Zato
    
 rapidproToDhis2Tracker.py permet le transfert des données de rapidpro vers dhis2 Mhealth.
 
+
 Paramètre
+
   source:	Le nom du système contenant les données.
   destination:	Le nom du système recevant les données.
   mappingFile:	Nom du fichier CSV (separteur point-virgule « ; »)
