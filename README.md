@@ -17,10 +17,9 @@ duration	Période de collecte des données. Inclure uniquement les valeurs de do
 -	"Y" (année) : 2Y
 -	"c" (periode en cours) : 6Mc
 NB : ne pas l’utiliser avec startDate et endDate
-startDate	La date de début de collecte des données au format yyyy-MM-dd
-Ne pas l’utiliser avec duration
-endDate	La date de fin de collecte des données au format yyyy-MM-dd
-Ne pas l’utiliser avec duration
+
+startDate	La date de début de collecte des données au format yyyy-MM-dd. Ne pas l’utiliser avec duration
+endDate	La date de fin de collecte des données au format yyyy-MM-dd. Ne pas l’utiliser avec duration
 
 Exemple de contenu du paramètre :
 {'source':'RAPIDPRO','destination':'MHEALTH','mappingFile':'configFile.csv','duration':'5d'}
